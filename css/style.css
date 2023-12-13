@@ -1,0 +1,114 @@
+* {
+    outline: 1px solid tomato--;
+}
+
+#header {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    line-height: 100px;
+}
+
+#header h1 {
+    font-size: 0;
+}
+
+/* #header h1 a {
+    width: 200px;
+} */
+
+#header .inner {
+    display: flex;
+    align-items: center;
+}
+
+#header .inner>* {
+    flex: 1;
+}
+
+#header .inner .gnb>ul {
+    display: flex;
+    gap: 40px;
+}
+
+
+#header .inner .gnb>ul>li>a {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#header .inner .util {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+}
+
+#header .inner .util a {
+    font-size: 24px;
+    /* gap: 16px; */
+}
+
+/* .mainVisual {
+    position: relative;
+} */
+
+.mainVisual .visual_slide .itm {
+    position: relative;
+    height: 600px;
+}
+
+.mainVisual .visual_slide .itm01 {
+    background: url(../images/mainBanner_001.jpg)no-repeat center center/cover;
+}
+
+.mainVisual .visual_slide .itm02 {
+    background: url(../images/mainBanner_002.jpg)no-repeat center center/cover;
+}
+
+.mainVisual .visual_slide .itm03 {
+    background: url(../images/mainBanner_003.jpg)no-repeat center center/cover;
+}
+
+.mainVisual .visual_slide .itm04 {
+    background: url(../images/mainBanner_004.jpg)no-repeat center center/cover;
+}
+
+.mainVisual .visual_slide .itm05 {
+    background: url(../images/mainBanner_005.jpg)no-repeat center center/cover;
+}
+
+.mainVisual .visual_slide .slogan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.mainVisual .visual_slide .slogan strong img {
+    margin: 0 0 32px 0;
+}
+
+.mainVisual .visual_slide .slogan p {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    margin: 0 0 32px 0;
+}
+
+.mainVisual .visual_slide .slogan span {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.mainVisual .visual_slide .itm03 .slogan p {
+    color: #fff;
+}
+
+.mainVisual .visual_slide .itm03 .slogan span {
+    color: #fff;
+}
