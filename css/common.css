@@ -1,7 +1,7 @@
 .inner {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
+    /* padding: 0 15px; */
 }
 
 .default {
@@ -10,8 +10,8 @@
 
 .default .title {
     max-width: 1200px;
-    margin: 0 auto 24px auto;
-    padding: 0 15px;
+    margin: 0 0 24px 0;
+    /* padding: 0 15px; */
 }
 
 .default .title p {

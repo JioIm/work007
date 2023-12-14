@@ -86,7 +86,7 @@
     transform: translate(-50%, -50%);
     max-width: 1200px;
     width: 100%;
-    padding: 0 15px;
+    /* padding: 0 15px; */
 }
 
 .mainVisual .visual_slide .slogan strong img {
@@ -111,4 +111,74 @@
 
 .mainVisual .visual_slide .itm03 .slogan span {
     color: #fff;
+}
+
+.mainContent .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainContent .right {
+    display: flex;
+    width: 870px;
+    gap: 30px;
+}
+
+.mainTab .inner .tit {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mainTab .main_tab {
+    display: flex;
+    gap: 60px;
+}
+
+.mainTab .tab_inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+}
+
+.mainTab .tab_inner img {
+    width: 100%;
+}
+
+.tab_content .content {
+    display: none;
+}
+
+.tab_content .content.on {
+    display: block;
+}
+
+.mainPromo {
+    background: #f9f9f9;
+}
+
+.mainPromo a img {
+    background: url(../images/);
+}
+
+
+.mainPromo .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainPromo .inner .left title {
+    white-space: nowrap;
+}
+
+.mainPromo .right {
+    display: flex;
+    width: 700px;
+    gap: 50px;
+}
+
+.mainPromo .right .itm figure img {
+    border: none;
+    border-radius: 50%;
 }
