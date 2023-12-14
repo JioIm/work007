@@ -182,3 +182,44 @@
     border: none;
     border-radius: 50%;
 }
+
+.mainVideo .inner {
+    display: flex;
+}
+
+.mainVideo .left_movie {
+    margin: 0 64px 0 0;
+}
+
+.mainVideo .left_movie .utb {
+    
+}
+
+.mainVideo .left_movie iframe {
+    text-align: center;
+}
+
+#footer {
+    padding: 50px 0 70px 0;
+}
+
+#footer .inner {
+    display: flex;
+}
+
+#footer .customer_area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer .customer_area ul {
+    display: flex;
+    gap: 20px;
+    margin: 0 0 32px 0;
+}
+
+#footer .customer_area ul>li a {
+    font-size: 14px;
+    line-height: 60px;
+}
