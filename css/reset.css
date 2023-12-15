@@ -48,3 +48,9 @@ address {
     margin: -1px;
     overflow: hidden;
 }
+
+button,
+input,
+textarea {
+    font-family: 'Noto Sans KR', sans-serif;
+}
